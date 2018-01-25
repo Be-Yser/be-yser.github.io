@@ -15,8 +15,9 @@ body {
 	background-color: white;
 	border: 1px solid #dddddd;
 	border-radius: 0px;
+	margin:10px 0;
 }
 
-.main {
-	margin-top: 20px;
+.small-container {
+	max-width: 400px;
 }
