@@ -17,11 +17,11 @@ header li a, header .navbar-brand a {
 	color: white;
 }
 
-/*
+
 header li a:hover {
-	color: rgb(225,190,78);
+	color: blue;
 }
-*/
+
 
 .card {
 	background-color: white;
