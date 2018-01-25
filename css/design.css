@@ -8,15 +8,16 @@ body {
 }
 
 header {
-	background-color: rgb(228,228,228);
+	/*background-color: rgb(228,228,228);*/
+	background-color: rgb(100,100,100);
+}
+
+
+header li a, header .navbar-brand a {
+	color: white;
 }
 
 /*
-header li a {
-	color: rgb(205,79,73);
-}
-
-
 header li a:hover {
 	color: rgb(225,190,78);
 }
@@ -30,5 +31,5 @@ header li a:hover {
 }
 
 .small-container {
-	max-width: 400px;
+	max-width: 600px;
 }
