@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8" />
 
-	<title>Yser - Votre partenaire RGPD</title>
+	<title>Yser - Inscription</title>
 	<meta name="description"    content=""/>
 	<meta name="keywords"       content=""/>
 	
@@ -42,37 +42,29 @@
 					<li><a href="/pages/rights" title="Tutoriel Web3.js">Quels sont mes droits ?</a></li>
 					<li><a href="/pages/partners" title="Bases concernant le language Solidity">Les entreprises qui travaillent avec nous</a></li>
 					<li><a href="/pages/login" title="Me connecter">Me connecter</a></li>
-					<li><a href="/pages/signup" title="M'inscire">M'inscrire</a></li>
+					<li><a href="/pages/signup" class="active" title="M'inscire">M'inscrire</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<div class="container theme-showcase" role="main">
 		<div class="jumbotron">
-			<h2>Bienvenue sur Yser</h2>
+			<h2>S'inscire</h2>
 			<p>
-
-			</p>
-			<p>
-				
-			</p>
-		</div>
-
-		<div class="jumbotron">
-			<h2>Quels sont mes droits ?</h2>
-			<p>
-
-			</p>
-		</div>
-
-		<div class="jumbotron">
-			<h2>Entreprises</h2>
-			<p>
-
+				<form>
+					<input type="prenom" placeholder="Prénom" class="form-control" required autofocus/>
+					<input type="nom" placeholder="NOM" class="form-control" required/>
+					<input type="tel" placeholder="Téléphone" class="form-control" required/>
+					<input type="email" placeholder="Adresse e-mail" class="form-control" required/>
+					<input type="password" placeholder="password 1" class="form-control" required>
+					<input type="password" placeholder="password 2" class="form-control" required>
+					<a href="/pages/signup/id-verification/" class="btn btn-primary">
+						S'inscire
+					</a>
+				</form>
 			</p>
 		</div>
-
-	
+	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
