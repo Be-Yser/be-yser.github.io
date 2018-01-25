@@ -18,6 +18,10 @@ header li a, header li a:hover, header .navbar-brand a {
 	color: white;
 }
 
+.logo {
+	width: 70px;
+}
+
 .card {
 	background-color: white;
 	border: 1px solid #eeeeee;
