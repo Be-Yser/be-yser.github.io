@@ -25,27 +25,35 @@
 
  	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel="stylesheet"    		media="all"		type="text/css" 	href="./styles/design.css"   />
+
+	<link rel="stylesheet"    		media="all"		type="text/css" 	href="./../../css/design.css"   />
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+<header>
+	<nav class="navbar navbar-toggleable-sm">
 		<div class="container">
-			<div class="navbar-header">
-				<a href="/" class="navbar-brand" rel="home" title="Yser">Yser</a>
+			<div class="navbar-brand">
+				<a href="/" rel="home" title="Yser">Yser</a>
 			</div>
-			<div class="navbar-collapse collapse" id="navbar">
-				<ul class="nav navbar-nav">
-					<li><a href="/pages/about" title="Tutoriel Web3.js">Qui sommes nous ?</a></li>
-					<li><a href="/pages/rights" title="Tutoriel Web3.js">Quels sont mes droits ?</a></li>
-					<li><a href="/pages/partners" title="Bases concernant le language Solidity">Les entreprises qui travaillent avec nous</a></li>
-					<li><a href="/pages/login" title="Me connecter">Me connecter</a></li>
-					<li><a href="/pages/signup" title="M'inscire">M'inscrire</a></li>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+					aria-label="Toggle navigation">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto row">
+					<li class="col-md nav-item row mt-1"><a href="/pages/about" title="A propos d'Yser">Qui sommes-nous ?</a></li>
+					<li class="col-md nav-item row mt-1"><a href="/pages/rights" title="Vos droits">Quels sont mes droits ?</a></li>
+					<li class="col-md nav-item row mt-1"><a href="/pages/partners" title="Entreprises partenaires">Les entreprises qui travaillent avec nous</a></li>
+					<li class="col-md nav-item row mt-1 mr-1"><a href="/pages/login" class="btn btn-primary" title="Me connecter">Me connecter</a></li>
+
+					<li class="col-md nav-item row mt-1"><a href="/pages/signup" class="btn btn-secondary" title="M'inscire">M'inscrire</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<div class="container theme-showcase" role="main">
-		<div class="jumbotron">
+</header>
+	<div class="container theme-showcase main" role="main">
+		<div class="card card-block">
 			<h2>Bienvenue sur Yser</h2>
 			<p>
 				Yser a pour vocation d'aider les particuliers à exercer leur droit à la protection des données personnelles et à garder une vison claire de la gestion et du traitement de ces données.
@@ -55,14 +63,14 @@
 			</p>
 		</div>
 
-		<div class="jumbotron">
+		<div class="card card-block">
 			<h2>Quels sont mes droits ?</h2>
 			<p>
 				Vous avez des droits vis à vis de vos données : exercez les ! Droits à l'accès, à l'oubli, à la rectification, à la portbilité. Apprenez tout sur vos droits ici.
 			</p>
 		</div>
 
-		<div class="jumbotron">
+		<div class="card card-block">
 			<h2>Entreprises</h2>
 			<p>
 				Nous collaborons avec certaines entreprises qui ont pris le tournant de la transparance. Retrouvez la liste exhaustive ici.
